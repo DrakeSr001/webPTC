@@ -36687,7 +36687,7 @@ aSr(a,b){var s=0,r=A.y(t.H),q,p,o
 var $async$aSr=A.u(function(c,d){if(c===1)return A.v(d,r)
 while(true)switch(s){case 0:p=new A.d1("")
 o=A.b([-1],t.t)
-A.b1o("application/octet-stream",null,null,p,o)
+A.b1o("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",null,null,p,o)
 o.push(p.a.length)
 o.push((p.a+=";base64,").length-1)
 B.pg.kj(new A.ua(p)).i0(b,0,b.length,!0)
@@ -114676,7 +114676,7 @@ return A.p(m.d.FZ(k,l),$async$yd)
 case 7:j=b
 i=B.c.cr(J.ds(k),2,"0")
 s=8
-return A.p(A.aSr("clinic-"+A.o(l)+"-"+A.o(i)+".csv",j),$async$yd)
+return A.p(A.aSr("clinic-"+A.o(l)+"-"+A.o(i)+".xlsx",j),$async$yd)
 case 8:n.push(6)
 s=5
 break
@@ -114751,7 +114751,7 @@ s=7
 return A.p(m.d.G_(j,k),$async$yc)
 case 7:l=b
 s=8
-return A.p(A.aSr("clinic-"+m.MT()+".csv",l),$async$yc)
+return A.p(A.aSr("clinic-"+m.MT()+".xlsx",l),$async$yc)
 case 8:n.push(6)
 s=5
 break
